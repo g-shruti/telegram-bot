@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/telegram-bot">
       <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
