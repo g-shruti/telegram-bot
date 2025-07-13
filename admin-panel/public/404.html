@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/telegram-bot/" />
+    <meta charset="utf-8" />
+    <script>
+      const redirectPath = location.pathname.replace("/telegram-bot", "");
+      location.replace("/telegram-bot/index.html?redirect=" + redirectPath);
+    </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
