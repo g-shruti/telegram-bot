@@ -1,0 +1,24 @@
+# Node modules for all sub-projects
+node_modules/
+**/node_modules/
+
+# dotenv config files
+.env
+**/.env
+
+# build & log artifacts
+**/build/
+**/dist/
+*.log
+
+# OS/system clutter
+.DS_Store
+Thumbs.db
+
+# IDE config files
+.vscode/
+.idea/
+
+# Lock files (optional, depending on team pref)
+package-lock.json
+yarn.lock
