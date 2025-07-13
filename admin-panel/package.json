@@ -1,6 +1,6 @@
 {
   "name": "admin-panel",
-  "homepage": "https://g-shruti.github.io/telegram-bot",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
