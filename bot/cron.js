@@ -36,10 +36,10 @@ const schedule = async () => {
   });
 };
 
-// schedule();
+schedule();
 
 
-cron.schedule('* * * * *', () => {
-  console.log('⏰ Sending weather update (test mode)');
-  startWeatherBroadcast();
-});
+// cron.schedule('* * * * *', () => {
+//   console.log('⏰ Sending weather update (test mode)');
+//   startWeatherBroadcast();
+// });
